@@ -1,12 +1,13 @@
 package iam_test
 
 import (
-	"github.com/mitchellh/goamz/aws"
-	"github.com/mitchellh/goamz/iam"
-	"github.com/mitchellh/goamz/testutil"
-	. "github.com/motain/gocheck"
 	"strings"
 	"testing"
+
+	. "github.com/motain/gocheck"
+	"github.com/wrapp/goamz/aws"
+	"github.com/wrapp/goamz/iam"
+	"github.com/wrapp/goamz/testutil"
 )
 
 func Test(t *testing.T) {

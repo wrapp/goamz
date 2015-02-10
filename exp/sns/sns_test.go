@@ -1,11 +1,12 @@
 package sns_test
 
 import (
-	"github.com/mitchellh/goamz/aws"
-	"github.com/mitchellh/goamz/exp/sns"
-	"github.com/mitchellh/goamz/testutil"
-	. "github.com/motain/gocheck"
 	"testing"
+
+	. "github.com/motain/gocheck"
+	"github.com/wrapp/goamz/aws"
+	"github.com/wrapp/goamz/exp/sns"
+	"github.com/wrapp/goamz/testutil"
 )
 
 func Test(t *testing.T) {

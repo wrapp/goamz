@@ -1,12 +1,13 @@
 package aws_test
 
 import (
-	"github.com/mitchellh/goamz/aws"
-	. "github.com/motain/gocheck"
 	"io/ioutil"
 	"os"
 	"strings"
 	"testing"
+
+	. "github.com/motain/gocheck"
+	"github.com/wrapp/goamz/aws"
 )
 
 func Test(t *testing.T) {
