@@ -339,7 +339,7 @@ func GetAuth(accessKey string, secretKey string) (auth Auth, err error) {
 		auth.Token = cred.Token
 		return
 	}
-	err = errors.New("No valid AWS authentication found")
+	err = errors.New("No valid AWS authentication found: " + err.Error())
 	return
 }
 
